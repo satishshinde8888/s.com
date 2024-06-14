@@ -1,0 +1,17 @@
+# Common properties
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
